@@ -1,0 +1,297 @@
+html {
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: forestgreen;
+    color: white;
+    width: 100%;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 1%;
+    margin-top: 5px;
+    border-radius: 1px;
+}
+
+#name {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: black;
+    margin-left: 1%;
+}
+
+.home {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    color: forestgreen;
+    font-style: oblique;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: sans-serif;
+    color: blue;
+}
+
+.h-1 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.h-2 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.info {
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.slogan {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    text-align: center;
+    text-decoration: double;
+}
+
+.design {
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.blend {
+    border-radius: 10px;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+#about {
+    display: flex;
+    margin: 0 auto;
+    height: 400px;
+    width: 100%;
+}
+
+#description {
+    width: 40.625%;
+    margin-left: 6.25%;
+    margin-right: 6.25%;
+    height: 400px;
+    background: yellow;
+    color: black;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.span-1 {
+    font-size: 1.1rem;
+    font-family: cursive;
+    font-style: oblique;
+    color: blueviolet;
+}
+
+.span-2 {
+    font-size: 1.1rem;
+    font-family: cursive;
+    font-style: oblique;
+    color: green;
+}
+
+.span-3 {
+    text-decoration: underline;
+}
+
+#image {
+    width: 40.625%;
+    margin-right: 6.25%;
+    height: 400px;
+}
+
+.photo {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.forward {
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+.list {
+    list-style: none;
+    text-align: center;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+#social {
+    display: flex;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.facebook {
+    background-color: blue;
+    width: 25%;
+    margin-left: 12%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.youtube {
+    background-color: red;
+    width: 25%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tiktok {
+    background-color:lightseagreen;
+    width: 25%;
+    margin-right: 12%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.fac {
+    color: black;
+}
+
+.you {
+    color: forestgreen;
+}
+
+.tik {
+    color: white;
+}
+
+.tik:hover {
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.you:hover {
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.fac:hover {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#footer {
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: italic;
+    height: 60px;
+    background-color:  #fff8f0;
+    width: 100%;
+    text-align: center;
+    background-color: darkgreen;
+    border-radius: 4px;
+}
+
+.help {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+
+.location {
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+}
+
+#footer-flex {
+    display: flex;
+}
+
+.button {
+    color: darkorange;
+    font-style: italic;
+    background-color: black;
+    cursor: none;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.button:hover {
+    background-color:whitesmoke;
+}
+
+@media screen and ( min-width:256px) {
+    #about {
+        display: block;
+    }
+    
+}
+
+@media screen and ( min-width:576px) {
+    #about {
+        display: block;
+    }
+    
+}
+
+@media screen and ( min-width:768px) {
+    #about {
+        display: flex;
+    }
+    
+}
+
+@media screen and ( min-width:992px) {
+    #about {
+        display: flex;
+    }
+    
+}
+
+@media screen and ( min-width:1200px) {
+    #about {
+        display: flex;
+    }
+}
